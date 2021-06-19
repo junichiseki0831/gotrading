@@ -1,16 +1,15 @@
 package main
 
 import (
-	"log"
+	"fmt"
 
+	"github.com/junichiseki0831/gotrading/bitflyer"
 	"github.com/junichiseki0831/gotrading/config"
 	"github.com/junichiseki0831/gotrading/utils"
 )
 
 func main() {
-	// configから読み取った内容を表示
-	//fmt.Println(config.Config.ApiKey)
-	//fmt.Println(config.Config.ApiSecret)
-	utils.LoggingSettings(config.Config.LogFile)
-	log.Println("test")
+	utils.LoggingSettings(config.Config.LogFile) //ログ作成
+	apiClient := bitflyer.New(config.Config.ApiKey, config.Config.ApiSecret)
+	fmt.Println(apiClient.GetBalance())
 }
