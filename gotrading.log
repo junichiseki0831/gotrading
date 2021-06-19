@@ -29,3 +29,12 @@
 2021/06/19 bitflyer.go:33: 1624084602
 2021/06/19 bitflyer.go:104: url=me/getbalance resp={"status":-500,"error_message":"Key not found","data":null}
 2021/06/19 bitflyer.go:112: action=GetBalance err=json: cannot unmarshal object into Go value of type []bitflyer.Balance
+2021/06/19 bitflyer.go:58: action=doRequest endpoint=https://api.bitflyer.com/v1/ticker
+2021/06/19 bitflyer.go:142: action=DateTime, err=parsing time "2021-06-19T10:09:37.21" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
+2021/06/19 bitflyer.go:142: action=DateTime, err=parsing time "2021-06-19T10:09:37.21" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
+2021/06/19 bitflyer.go:58: action=doRequest endpoint=https://api.bitflyer.com/v1/ticker
+2021/06/19 bitflyer.go:143: action=DateTime, err=parsing time "2018-09-27T02:01:59.60052847" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
+2021/06/19 bitflyer.go:143: action=DateTime, err=parsing time "2018-09-27T02:01:59.60052847" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
+2021/06/19 bitflyer.go:58: action=doRequest endpoint=https://api.bitflyer.com/v1/ticker
+2021/06/19 bitflyer.go:143: action=DateTime, err=parsing time "2018-09-27T02:01:59.6000900" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
+2021/06/19 bitflyer.go:143: action=DateTime, err=parsing time "2018-09-27T02:01:59.6000900" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
